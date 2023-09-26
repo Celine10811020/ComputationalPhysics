@@ -1,3 +1,5 @@
+//以arctan的泰勒展開式計算pi值。arctan(1)=pi/4。
+
 #include <stdio.h>
 
 int main()
