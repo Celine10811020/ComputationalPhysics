@@ -1,3 +1,5 @@
+//以2^n邊形計算pi值
+
 #include <stdio.h>
 #include <math.h>
 
