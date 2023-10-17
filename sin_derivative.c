@@ -1,3 +1,5 @@
+//中央差
+
 #include <stdio.h>
 #include <math.h>
 
