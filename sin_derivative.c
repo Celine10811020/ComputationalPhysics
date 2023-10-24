@@ -9,9 +9,9 @@ int main()
 	double x = 0.1;
 	double ans_1, ans_2, ans_3;
 
-	ans_1 = ( sin(x+h) - sin(x) ) / h;
-	ans_2 = ( sin(x+h) - sin(x-h) ) / (2*h);
-	ans_3 = ( -sin(x+2*h) + 8*sin(x+h) - 8*sin(x-h) + sin(x-2*h) ) / (12*h);
+	ans_1 = ( sin(x+h) - sin(x) ) / h; //向後差
+	ans_2 = ( sin(x+h) - sin(x-h) ) / (2*h); //兩點中央差
+	ans_3 = ( -sin(x+2*h) + 8*sin(x+h) - 8*sin(x-h) + sin(x-2*h) ) / (12*h); //四點中央差
 
 	printf("ans_1 = %20.16lf\n", ans_1);
 	printf("ans_2 = %20.16lf\n", ans_2);
