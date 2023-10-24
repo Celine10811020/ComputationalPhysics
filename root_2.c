@@ -1,3 +1,5 @@
+//用牛頓法
+
 #include <stdio.h>
 #include <math.h>
 
@@ -10,7 +12,9 @@ int main()
     printf("Please enter a number: ");
     scanf("%lf", &num);
 
-    for(i=0; i<num; i++)
+    //x = num; //收斂較慢
+    
+    for(i=0; i<num; i++) //x設為sqrt(num)的整數項，收斂較快
     {
         x = num - i*i;
 
@@ -22,8 +26,6 @@ int main()
     }
 
     //printf("\t%25.16lf\n", x);
-
-    x = num;
 
     for(i=0; i<10; i++)
     {
