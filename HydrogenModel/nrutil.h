@@ -23,4 +23,7 @@ void inverse(double **A, double **B, int n);
 void multiply(double **A, double **B, int n);
 void transpose(double **A, double **B, int n);
 
+void mergeSort(double *eigenvalue, double **H, int head, int tail);
+void merge(double *eigenvalue, double **H, int head, int mid, int tail);
+
 #endif
